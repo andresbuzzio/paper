@@ -10,7 +10,7 @@ body {
 h1 {
 font-family: Helvetica, sans-serif;
 font-weight: 100;
-font-size: 60px;
+font-size: 40px;
 letter-spacing: -1px;
 color: whitesmoke;
 text-align: center;
@@ -41,6 +41,7 @@ input[type=text] {
 }
 
 input[type=submit], input[type=button], button {
+    background: transparent;
     border: 0;
     padding: 0.5em 20px 0.5em 20px;
     color: whitesmoke;
@@ -51,6 +52,7 @@ input[type=submit], input[type=button], button {
     outline: none;
 }
 
+/*
 .backgroundOne {
 background: #1abc9c;
 }
@@ -70,3 +72,4 @@ background: #9b59b6;
 .backgroundFive {
 background: #e74c3c;
 }
+*/
