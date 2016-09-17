@@ -1,5 +1,11 @@
 // print divs
 
+var userScore = 0;
+var computerScore = 0;
+
+document.getElementById("theUser").value = userScore;
+document.getElementById("theComputer").value = computerScore;
+
 // user and computer choices
 
 var gestures = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -23,9 +29,13 @@ function play(index) {
 
     alert("You " + result + ": " + a + " " + rules[a][b] + " " + b + ".");
 
-    if (result === "win") {
-      userScore.value += 1;
+    if (mine === a) {
+    computerScore += 1; //increments score
+    document.getElementById("theComputer").value = computerScore;
+    } else if (mine === b) {
+    userScore += 1; //increments score
+    document.getElementById("theUser").value = userScore;
     } else {
-      computerScore.value += 1;
+    null
     }
 }
