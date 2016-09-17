@@ -1,0 +1,72 @@
+body {
+
+
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #7b4397 , #dc2430); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+font-family: Helvetica, sans-serif;
+font-weight: 100;
+font-size: 60px;
+letter-spacing: -1px;
+color: whitesmoke;
+text-align: center;
+}
+
+p {
+font-family: Helvetica, sans-serif;
+font-weight: 100;
+font-size: 30px;
+letter-spacing: -1px;
+color: whitesmoke;
+text-align: center;
+}
+
+.container {
+text-align: center;
+}
+
+input[type=text] {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    padding: 0.5em 0 0.5em 10px;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+input[type=submit], input[type=button], button {
+    border: 0;
+    padding: 0.5em 20px 0.5em 20px;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 16px;
+    outline: none;
+}
+
+.backgroundOne {
+background: #1abc9c;
+}
+
+.backgroundTwo {
+background: #2ecc71;
+}
+
+.backgroundThree {
+background: #3498db;
+}
+
+.backgroundFour {
+background: #9b59b6;
+}
+
+.backgroundFive {
+background: #e74c3c;
+}
